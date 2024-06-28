@@ -1,0 +1,2778 @@
+{
+  "recipes": [
+    {
+      "type": "crafting_shaped",
+      "name": "turned:engineerbootsrecipe",
+      "input": {
+        "1": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "2": {
+          "item": "turned:battery",
+          "count": 1
+        },
+        "3": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:redstone",
+          "count": 1
+        },
+        "6": {
+          "item": "minecraft:redstone",
+          "count": 1
+        },
+        "7": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "9": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:hertxengineer_boots",
+          "count": 1,
+          "nbt": "{Damage:0}"
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:gunbarrel_recipe",
+      "input": {
+        "3": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "5": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "7": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:gunbarrel",
+          "count": 2
+        }
+      }
+    },
+    {
+      "type": "stonecutting",
+      "name": "turned:bunkersmooth",
+      "input": {
+        "1": {
+          "item": "turned:bunkerblock",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:bunker_block_smooth",
+          "count": 1
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:microscoperecipe",
+      "input": {
+        "1": {
+          "item": "minecraft:glass_pane",
+          "count": 1
+        },
+        "2": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "3": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:redstone",
+          "count": 1
+        },
+        "5": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "6": {
+          "tag": "forge:stained_glass_panes",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:microscope",
+          "count": 1
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:reinforcedconcreterecipeyellow",
+      "input": {
+        "1": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "2": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "3": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "5": {
+          "item": "minecraft:yellow_concrete",
+          "count": 1
+        },
+        "6": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "7": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "8": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "9": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:reinforcedyellowconcrete",
+          "count": 1
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:yellow_lab_block_recipe_2",
+      "input": {
+        "1": {
+          "item": "minecraft:yellow_concrete",
+          "count": 1
+        },
+        "2": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "3": {
+          "item": "minecraft:yellow_concrete",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "5": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "6": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "7": {
+          "item": "minecraft:yellow_concrete",
+          "count": 1
+        },
+        "8": {
+          "item": "minecraft:yellow_concrete",
+          "count": 1
+        },
+        "9": {
+          "item": "minecraft:yellow_concrete",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:yellowlabblock_2",
+          "count": 9
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:bunker_block_recipe",
+      "input": {
+        "1": {
+          "item": "minecraft:iron_block",
+          "count": 1
+        },
+        "2": {
+          "item": "minecraft:black_concrete",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:black_concrete",
+          "count": 1
+        },
+        "5": {
+          "item": "minecraft:iron_block",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:bunkerblock",
+          "count": 4
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:red_lab_slabrecipe_1",
+      "input": {
+        "1": {
+          "item": "turned:red_lab_block_2",
+          "count": 1
+        },
+        "2": {
+          "item": "turned:red_lab_block_2",
+          "count": 1
+        },
+        "3": {
+          "item": "turned:red_lab_block_2",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:red_lab_slabs",
+          "count": 6
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:green_lab_block_recipe_2",
+      "input": {
+        "1": {
+          "item": "minecraft:green_concrete",
+          "count": 1
+        },
+        "2": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "3": {
+          "item": "minecraft:green_concrete",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "5": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "6": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "7": {
+          "item": "minecraft:green_concrete",
+          "count": 1
+        },
+        "8": {
+          "item": "minecraft:green_concrete",
+          "count": 1
+        },
+        "9": {
+          "item": "minecraft:green_concrete",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:greenlabblock_2",
+          "count": 9
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:overundershotguncraft",
+      "input": {
+        "1": {
+          "item": "turned:gunbarrel",
+          "count": 1
+        },
+        "2": {
+          "item": "turned:shotgun_shell",
+          "count": 1
+        },
+        "3": {
+          "item": "turned:gunrepairkit",
+          "count": 1
+        },
+        "4": {
+          "item": "turned:gunbarrel",
+          "count": 1
+        },
+        "5": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "6": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "7": {
+          "item": "minecraft:lever",
+          "count": 1
+        },
+        "8": {
+          "tag": "minecraft:planks",
+          "count": 1
+        },
+        "9": {
+          "tag": "minecraft:planks",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:overundershotgun",
+          "count": 1,
+          "nbt": "{Damage:0}"
+        }
+      }
+    },
+    {
+      "type": "stonecutting",
+      "name": "turned:redlab_2_conversion",
+      "input": {
+        "1": {
+          "item": "turned:redlab_4",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:redlab_2",
+          "count": 1
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:hazmat_recipe_chestplate",
+      "input": {
+        "1": {
+          "item": "minecraft:leather",
+          "count": 1
+        },
+        "2": {
+          "item": "minecraft:glass",
+          "count": 1
+        },
+        "3": {
+          "item": "minecraft:leather",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:gold_ingot",
+          "count": 1
+        },
+        "5": {
+          "item": "minecraft:charcoal",
+          "count": 1
+        },
+        "6": {
+          "item": "minecraft:gold_ingot",
+          "count": 1
+        },
+        "7": {
+          "item": "minecraft:leather",
+          "count": 1
+        },
+        "8": {
+          "item": "minecraft:gold_ingot",
+          "count": 1
+        },
+        "9": {
+          "item": "minecraft:leather",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:hazmat_chestplate",
+          "count": 1,
+          "nbt": "{Damage:0}"
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:black_lab_block_recipe_2",
+      "input": {
+        "1": {
+          "item": "minecraft:gray_concrete",
+          "count": 1
+        },
+        "2": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "3": {
+          "item": "minecraft:gray_concrete",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "5": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "6": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "7": {
+          "item": "minecraft:gray_concrete",
+          "count": 1
+        },
+        "8": {
+          "item": "minecraft:gray_concrete",
+          "count": 1
+        },
+        "9": {
+          "item": "minecraft:gray_concrete",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:blacklabblock_2",
+          "count": 9
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:reinforcedconcreterecipered",
+      "input": {
+        "1": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "2": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "3": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "5": {
+          "item": "minecraft:red_concrete",
+          "count": 1
+        },
+        "6": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "7": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "8": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "9": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:reinforcedredconcrete",
+          "count": 1
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:purple_lab_slab_recipe",
+      "input": {
+        "1": {
+          "item": "turned:purplelabblock_2",
+          "count": 1
+        },
+        "2": {
+          "item": "turned:purplelabblock_2",
+          "count": 1
+        },
+        "3": {
+          "item": "turned:purplelabblock_2",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:purple_lab_slab",
+          "count": 6
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:smallboxrecipe",
+      "input": {
+        "1": {
+          "item": "minecraft:paper",
+          "count": 1
+        },
+        "2": {
+          "item": "minecraft:paper",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:paper",
+          "count": 1
+        },
+        "5": {
+          "item": "minecraft:paper",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:small_box",
+          "count": 1
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:homemadepistol",
+      "input": {
+        "1": {
+          "item": "turned:gunbarrel",
+          "count": 1
+        },
+        "5": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "6": {
+          "item": "minecraft:gunpowder",
+          "count": 1
+        },
+        "7": {
+          "item": "minecraft:lever",
+          "count": 1
+        },
+        "8": {
+          "tag": "minecraft:planks",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:matchlock_pistol",
+          "count": 1,
+          "nbt": "{Damage:0}"
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:reinforcedconcreterecipegreen",
+      "input": {
+        "1": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "2": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "3": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "5": {
+          "item": "minecraft:green_concrete",
+          "count": 1
+        },
+        "6": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "7": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "8": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "9": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:reinforcedgreenconcrete",
+          "count": 1
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:bunkerhatchrecipe",
+      "input": {
+        "1": {
+          "item": "turned:bunker_slabs",
+          "count": 1
+        },
+        "2": {
+          "item": "minecraft:iron_trapdoor",
+          "count": 1
+        },
+        "3": {
+          "item": "turned:bunker_slabs",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:bunkerhatch",
+          "count": 1
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:purple_lab_recipe_2",
+      "input": {
+        "1": {
+          "item": "minecraft:purple_concrete",
+          "count": 1
+        },
+        "2": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "3": {
+          "item": "minecraft:purple_concrete",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "5": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "6": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "7": {
+          "item": "minecraft:purple_concrete",
+          "count": 1
+        },
+        "8": {
+          "item": "minecraft:purple_concrete",
+          "count": 1
+        },
+        "9": {
+          "item": "minecraft:purple_concrete",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:purplelabblock_2",
+          "count": 9
+        }
+      }
+    },
+    {
+      "type": "crafting_shapeless",
+      "name": "turned:red_lab_recipe",
+      "input": {
+        "1": {
+          "item": "minecraft:white_concrete_powder",
+          "count": 1
+        },
+        "2": {
+          "item": "minecraft:redstone",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:redlab_4",
+          "count": 1
+        }
+      }
+    },
+    {
+      "type": "stonecutting",
+      "name": "turned:redlabstairsrecipe",
+      "input": {
+        "1": {
+          "item": "turned:redlab_4",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:red_lab_stairs",
+          "count": 1
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:crate_recipe",
+      "input": {
+        "1": {
+          "tag": "minecraft:wooden_slabs",
+          "count": 1
+        },
+        "2": {
+          "tag": "minecraft:wooden_slabs",
+          "count": 1
+        },
+        "3": {
+          "tag": "minecraft:wooden_slabs",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:crate",
+          "count": 1
+        }
+      }
+    },
+    {
+      "type": "stonecutting",
+      "name": "turned:bunkerstripes",
+      "input": {
+        "1": {
+          "item": "turned:bunkerblock",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:bunker_block_striped",
+          "count": 1
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:drone_hertx_recipe",
+      "input": {
+        "2": {
+          "item": "turned:hertxvisor",
+          "count": 1
+        },
+        "4": {
+          "item": "turned:hertxengineer_boots",
+          "count": 1
+        },
+        "5": {
+          "item": "turned:slimeessence",
+          "count": 1
+        },
+        "6": {
+          "item": "turned:hertxengineer_leggings",
+          "count": 1
+        },
+        "8": {
+          "item": "turned:hertxengineer_chestplate",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:dronehertxicon",
+          "count": 1
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:black_lab_block_recipe",
+      "input": {
+        "1": {
+          "item": "minecraft:gray_concrete",
+          "count": 1
+        },
+        "2": {
+          "item": "minecraft:gray_concrete",
+          "count": 1
+        },
+        "3": {
+          "item": "minecraft:gray_concrete",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "5": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "6": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "7": {
+          "item": "minecraft:gray_concrete",
+          "count": 1
+        },
+        "8": {
+          "item": "minecraft:gray_concrete",
+          "count": 1
+        },
+        "9": {
+          "item": "minecraft:gray_concrete",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:blacklabblock_1a",
+          "count": 9
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:red_lab_reinforced_recipe",
+      "input": {
+        "1": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "2": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "3": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "5": {
+          "item": "turned:redlab_4",
+          "count": 1
+        },
+        "6": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "7": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "8": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "9": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:redlab_5",
+          "count": 3
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:red_lab_recipe_1",
+      "input": {
+        "1": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "2": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "3": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:red_concrete",
+          "count": 1
+        },
+        "5": {
+          "item": "minecraft:red_concrete",
+          "count": 1
+        },
+        "6": {
+          "item": "minecraft:red_concrete",
+          "count": 1
+        },
+        "7": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "8": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "9": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:redlabblock_1",
+          "count": 9
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:gun_repair_kit_recipe",
+      "input": {
+        "1": {
+          "tag": "minecraft:planks",
+          "count": 1
+        },
+        "2": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "3": {
+          "tag": "minecraft:planks",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "5": {
+          "item": "minecraft:gunpowder",
+          "count": 1
+        },
+        "6": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "7": {
+          "tag": "minecraft:planks",
+          "count": 1
+        },
+        "8": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "9": {
+          "tag": "minecraft:planks",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:gunrepairkit",
+          "count": 1
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:engineerchestplaterecipe",
+      "input": {
+        "1": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "3": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:redstone",
+          "count": 1
+        },
+        "5": {
+          "item": "turned:battery",
+          "count": 1
+        },
+        "6": {
+          "item": "minecraft:redstone",
+          "count": 1
+        },
+        "7": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "8": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "9": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:hertxengineer_chestplate",
+          "count": 1,
+          "nbt": "{Damage:0}"
+        }
+      }
+    },
+    {
+      "type": "crafting_shapeless",
+      "name": "turned:random_book_pile_recipe",
+      "input": {
+        "1": {
+          "item": "minecraft:book",
+          "count": 1
+        },
+        "2": {
+          "item": "minecraft:book",
+          "count": 1
+        },
+        "3": {
+          "item": "minecraft:book",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:book",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:bookpilerandom",
+          "count": 1
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:military_drone_hertx_recipe",
+      "input": {
+        "1": {
+          "item": "turned:hertxengineer_helmet",
+          "count": 1
+        },
+        "2": {
+          "item": "turned:m_4_assault_rifle",
+          "count": 1
+        },
+        "3": {
+          "item": "turned:hertxengineer_chestplate",
+          "count": 1
+        },
+        "4": {
+          "item": "turned:battery",
+          "count": 1
+        },
+        "5": {
+          "item": "turned:slimeessence",
+          "count": 1
+        },
+        "6": {
+          "item": "minecraft:redstone",
+          "count": 1
+        },
+        "7": {
+          "item": "turned:hertxengineer_boots",
+          "count": 1
+        },
+        "8": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "9": {
+          "item": "turned:hertxengineer_leggings",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:military_drone_hertx_icon",
+          "count": 1
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:blue_lab_slab_recipe",
+      "input": {
+        "1": {
+          "item": "turned:bluelabblock_2",
+          "count": 1
+        },
+        "2": {
+          "item": "turned:bluelabblock_2",
+          "count": 1
+        },
+        "3": {
+          "item": "turned:bluelabblock_2",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:bluelabslabs",
+          "count": 6
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:batteryrecipe",
+      "input": {
+        "2": {
+          "item": "minecraft:gold_nugget",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "5": {
+          "item": "minecraft:redstone",
+          "count": 1
+        },
+        "6": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "8": {
+          "item": "minecraft:gold_nugget",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:battery",
+          "count": 1
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:greenlabblockrecipe",
+      "input": {
+        "1": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "2": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "3": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:green_concrete",
+          "count": 1
+        },
+        "5": {
+          "item": "minecraft:green_concrete",
+          "count": 1
+        },
+        "6": {
+          "item": "minecraft:green_concrete",
+          "count": 1
+        },
+        "7": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "8": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "9": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:greenlabblock_1",
+          "count": 9
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:glassdoorrecipe",
+      "input": {
+        "1": {
+          "item": "minecraft:glass",
+          "count": 1
+        },
+        "2": {
+          "item": "minecraft:glass",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:glass",
+          "count": 1
+        },
+        "5": {
+          "item": "minecraft:glass",
+          "count": 1
+        },
+        "7": {
+          "item": "minecraft:glass",
+          "count": 1
+        },
+        "8": {
+          "item": "minecraft:glass",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:glass_door",
+          "count": 3
+        }
+      }
+    },
+    {
+      "type": "stonecutting",
+      "name": "turned:redlabslabrecipe",
+      "input": {
+        "1": {
+          "item": "turned:redlab_4",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:red_lab_slab",
+          "count": 1
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:engineersuitrecipe",
+      "input": {
+        "1": {
+          "item": "minecraft:redstone",
+          "count": 1
+        },
+        "2": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "3": {
+          "item": "minecraft:redstone",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:leather",
+          "count": 1
+        },
+        "5": {
+          "item": "minecraft:redstone",
+          "count": 1
+        },
+        "6": {
+          "item": "minecraft:leather",
+          "count": 1
+        },
+        "7": {
+          "item": "minecraft:leather",
+          "count": 1
+        },
+        "9": {
+          "item": "minecraft:leather",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:hertxengineer_leggings",
+          "count": 1,
+          "nbt": "{Damage:0}"
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:black_lab_slab_recipe_2",
+      "input": {
+        "1": {
+          "item": "turned:blacklabblock_2",
+          "count": 1
+        },
+        "2": {
+          "item": "turned:blacklabblock_2",
+          "count": 1
+        },
+        "3": {
+          "item": "turned:blacklabblock_2",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:blacklabslab",
+          "count": 6
+        }
+      }
+    },
+    {
+      "type": "stonecutting",
+      "name": "turned:redlab_3_conversion",
+      "input": {
+        "1": {
+          "item": "turned:redlab_4",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:redlab_3",
+          "count": 1
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:reinforcedconcretepurplerecipe",
+      "input": {
+        "1": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "2": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "3": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "5": {
+          "item": "minecraft:purple_concrete",
+          "count": 1
+        },
+        "6": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "7": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "8": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "9": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:reinforcedpurpleconcrete",
+          "count": 1
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:black_lab_slab_recipe",
+      "input": {
+        "1": {
+          "item": "turned:blacklabblock_1a",
+          "count": 1
+        },
+        "2": {
+          "item": "turned:blacklabblock_1a",
+          "count": 1
+        },
+        "3": {
+          "item": "turned:blacklabblock_1a",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:blacklabslab",
+          "count": 6
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:box_recipe",
+      "input": {
+        "1": {
+          "item": "minecraft:paper",
+          "count": 1
+        },
+        "2": {
+          "item": "minecraft:paper",
+          "count": 1
+        },
+        "3": {
+          "item": "minecraft:paper",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:paper",
+          "count": 1
+        },
+        "6": {
+          "item": "minecraft:paper",
+          "count": 1
+        },
+        "7": {
+          "item": "minecraft:paper",
+          "count": 1
+        },
+        "8": {
+          "item": "minecraft:paper",
+          "count": 1
+        },
+        "9": {
+          "item": "minecraft:paper",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:box_inventory",
+          "count": 1
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:yellow_lab_slab_recipe",
+      "input": {
+        "1": {
+          "item": "turned:yellowlabblock_2",
+          "count": 1
+        },
+        "2": {
+          "item": "turned:yellowlabblock_2",
+          "count": 1
+        },
+        "3": {
+          "item": "turned:yellowlabblock_2",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:yellowlabslabs",
+          "count": 6
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:hazmat_recipe_helmet",
+      "input": {
+        "1": {
+          "item": "minecraft:leather",
+          "count": 1
+        },
+        "2": {
+          "item": "minecraft:gold_ingot",
+          "count": 1
+        },
+        "3": {
+          "item": "minecraft:leather",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:gold_ingot",
+          "count": 1
+        },
+        "5": {
+          "item": "minecraft:glass",
+          "count": 1
+        },
+        "6": {
+          "item": "minecraft:gold_ingot",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:hazmat_helmet",
+          "count": 1,
+          "nbt": "{Damage:0}"
+        }
+      }
+    },
+    {
+      "type": "stonecutting",
+      "name": "turned:bunker_slab",
+      "input": {
+        "1": {
+          "item": "turned:bunkerblock",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:bunker_slabs",
+          "count": 1
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:red_lab_recipe_2",
+      "input": {
+        "1": {
+          "item": "minecraft:red_concrete",
+          "count": 1
+        },
+        "2": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "3": {
+          "item": "minecraft:red_concrete",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "5": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "6": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "7": {
+          "item": "minecraft:red_concrete",
+          "count": 1
+        },
+        "8": {
+          "item": "minecraft:red_concrete",
+          "count": 1
+        },
+        "9": {
+          "item": "minecraft:red_concrete",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:red_lab_block_2",
+          "count": 9
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:makeshiftbeaconrecipe",
+      "input": {
+        "1": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "2": {
+          "item": "turned:battery",
+          "count": 1
+        },
+        "3": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:redstone",
+          "count": 1
+        },
+        "5": {
+          "item": "minecraft:compass",
+          "count": 1
+        },
+        "6": {
+          "item": "minecraft:redstone",
+          "count": 1
+        },
+        "7": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "8": {
+          "item": "minecraft:redstone",
+          "count": 1
+        },
+        "9": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:makeshift_beacon",
+          "count": 1
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:yellow_lab_block_recipe",
+      "input": {
+        "1": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "2": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "3": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:yellow_concrete",
+          "count": 1
+        },
+        "5": {
+          "item": "minecraft:yellow_concrete",
+          "count": 1
+        },
+        "6": {
+          "item": "minecraft:yellow_concrete",
+          "count": 1
+        },
+        "7": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "8": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "9": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:yellowlabblock_1",
+          "count": 9
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:hazmat_recipe_boots",
+      "input": {
+        "1": {
+          "item": "minecraft:leather",
+          "count": 1
+        },
+        "3": {
+          "item": "minecraft:leather",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:gold_ingot",
+          "count": 1
+        },
+        "6": {
+          "item": "minecraft:gold_ingot",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:hazmat_boots",
+          "count": 1,
+          "nbt": "{Damage:0}"
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:cagelightrecipe",
+      "input": {
+        "1": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "2": {
+          "item": "turned:battery",
+          "count": 1
+        },
+        "3": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:glass_pane",
+          "count": 1
+        },
+        "5": {
+          "item": "minecraft:redstone_lamp",
+          "count": 1
+        },
+        "6": {
+          "item": "minecraft:glass_pane",
+          "count": 1
+        },
+        "8": {
+          "item": "minecraft:glass_pane",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:ceilinglight",
+          "count": 5
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:laptoprecipe",
+      "input": {
+        "2": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "5": {
+          "tag": "forge:stained_glass_panes",
+          "count": 1
+        },
+        "6": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "7": {
+          "item": "minecraft:redstone",
+          "count": 1
+        },
+        "8": {
+          "item": "turned:battery",
+          "count": 1
+        },
+        "9": {
+          "item": "minecraft:redstone",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:laptop_closed",
+          "count": 1
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:engineerhelmetrecipe",
+      "input": {
+        "1": {
+          "item": "minecraft:redstone",
+          "count": 1
+        },
+        "2": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "3": {
+          "item": "minecraft:redstone",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:redstone",
+          "count": 1
+        },
+        "5": {
+          "item": "minecraft:glass",
+          "count": 1
+        },
+        "6": {
+          "item": "minecraft:redstone",
+          "count": 1
+        },
+        "7": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "8": {
+          "item": "turned:battery",
+          "count": 1
+        },
+        "9": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:hertxengineer_helmet",
+          "count": 1,
+          "nbt": "{Damage:0}"
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:homemademusketrecipe",
+      "input": {
+        "1": {
+          "item": "turned:gunbarrel",
+          "count": 1
+        },
+        "2": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "4": {
+          "tag": "minecraft:planks",
+          "count": 1
+        },
+        "5": {
+          "item": "turned:gunbarrel",
+          "count": 1
+        },
+        "6": {
+          "item": "minecraft:gunpowder",
+          "count": 1
+        },
+        "7": {
+          "item": "minecraft:lever",
+          "count": 1
+        },
+        "8": {
+          "tag": "minecraft:planks",
+          "count": 1
+        },
+        "9": {
+          "tag": "minecraft:planks",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:match_lock_musket",
+          "count": 1,
+          "nbt": "{Damage:0}"
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:hazmat_recipe_leggings",
+      "input": {
+        "1": {
+          "item": "minecraft:gold_ingot",
+          "count": 1
+        },
+        "2": {
+          "item": "minecraft:leather",
+          "count": 1
+        },
+        "3": {
+          "item": "minecraft:gold_ingot",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:leather",
+          "count": 1
+        },
+        "6": {
+          "item": "minecraft:leather",
+          "count": 1
+        },
+        "7": {
+          "item": "minecraft:gold_ingot",
+          "count": 1
+        },
+        "9": {
+          "item": "minecraft:gold_ingot",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:hazmat_leggings",
+          "count": 1,
+          "nbt": "{Damage:0}"
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:locker_recipe",
+      "input": {
+        "1": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "2": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "5": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "7": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "8": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:locker",
+          "count": 1
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:cagelightrecipe_2",
+      "input": {
+        "1": {
+          "item": "turned:battery",
+          "count": 1
+        },
+        "2": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "3": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "5": {
+          "item": "minecraft:redstone_lamp",
+          "count": 1
+        },
+        "6": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "7": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "8": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "9": {
+          "item": "turned:battery",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:cagelight",
+          "count": 3
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:green_lab_slab_recipe",
+      "input": {
+        "1": {
+          "item": "turned:greenlabblock_2",
+          "count": 1
+        },
+        "2": {
+          "item": "turned:greenlabblock_2",
+          "count": 1
+        },
+        "3": {
+          "item": "turned:greenlabblock_2",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:greenlabslabs",
+          "count": 6
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:blue_lab_slab_recipe_2",
+      "input": {
+        "1": {
+          "item": "turned:bluelabblock_2",
+          "count": 1
+        },
+        "2": {
+          "item": "turned:bluelabblock_2",
+          "count": 1
+        },
+        "3": {
+          "item": "turned:bluelabblock_2",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:bluelabslabs",
+          "count": 6
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:reinforcedconcreterecipeblue",
+      "input": {
+        "1": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "2": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "3": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "5": {
+          "item": "minecraft:blue_concrete",
+          "count": 1
+        },
+        "6": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "7": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "8": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "9": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:reinforcedblueconcrete",
+          "count": 1
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:purple_lab_recipe_1",
+      "input": {
+        "1": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "2": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "3": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:purple_concrete",
+          "count": 1
+        },
+        "5": {
+          "item": "minecraft:purple_concrete",
+          "count": 1
+        },
+        "6": {
+          "item": "minecraft:purple_concrete",
+          "count": 1
+        },
+        "7": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "8": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "9": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:purplelabblock_1",
+          "count": 9
+        }
+      }
+    },
+    {
+      "type": "stonecutting",
+      "name": "turned:bunkerstair",
+      "input": {
+        "1": {
+          "item": "turned:bunkerblock",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:bunker_stairs",
+          "count": 1
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:big_couch_recipe",
+      "input": {
+        "2": {
+          "item": "minecraft:black_wool",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:black_wool",
+          "count": 1
+        },
+        "5": {
+          "item": "minecraft:black_wool",
+          "count": 1
+        },
+        "6": {
+          "item": "minecraft:black_wool",
+          "count": 1
+        },
+        "8": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:bigcouch",
+          "count": 1
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:flaskcontainerrecipe",
+      "input": {
+        "1": {
+          "item": "minecraft:glass_bottle",
+          "count": 1
+        },
+        "2": {
+          "item": "minecraft:glass_bottle",
+          "count": 1
+        },
+        "3": {
+          "item": "minecraft:glass_bottle",
+          "count": 1
+        },
+        "5": {
+          "tag": "forge:ores/quartz",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:flaskcontainer",
+          "count": 2
+        }
+      }
+    },
+    {
+      "type": "stonecutting",
+      "name": "turned:redlab_4_conversion",
+      "input": {
+        "1": {
+          "item": "turned:redlab_4",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:redlab_1",
+          "count": 1
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:blue_lab_block_recipe_2",
+      "input": {
+        "1": {
+          "item": "minecraft:blue_concrete",
+          "count": 1
+        },
+        "2": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "3": {
+          "item": "minecraft:blue_concrete",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "5": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "6": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "7": {
+          "item": "minecraft:blue_concrete",
+          "count": 1
+        },
+        "8": {
+          "item": "minecraft:blue_concrete",
+          "count": 1
+        },
+        "9": {
+          "item": "minecraft:blue_concrete",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:bluelabblock_2",
+          "count": 9
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:bunker_door_recipe",
+      "input": {
+        "1": {
+          "item": "turned:bunkerblock",
+          "count": 1
+        },
+        "2": {
+          "item": "minecraft:iron_block",
+          "count": 1
+        },
+        "3": {
+          "item": "turned:bunkerblock",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:redstone",
+          "count": 1
+        },
+        "5": {
+          "item": "minecraft:iron_door",
+          "count": 1
+        },
+        "6": {
+          "item": "minecraft:redstone",
+          "count": 1
+        },
+        "7": {
+          "item": "turned:bunkerblock",
+          "count": 1
+        },
+        "8": {
+          "item": "minecraft:iron_block",
+          "count": 1
+        },
+        "9": {
+          "item": "turned:bunkerblock",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:bunker_door",
+          "count": 1
+        }
+      }
+    },
+    {
+      "type": "crafting_shapeless",
+      "name": "turned:salvage_m_16",
+      "input": {
+        "1": {
+          "item": "turned:brokenm_16",
+          "count": 1
+        },
+        "2": {
+          "item": "turned:gunrepairkit",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:scrap_m_16_rifle",
+          "count": 1,
+          "nbt": "{Damage:0}"
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:metal_box_recipe",
+      "input": {
+        "1": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "2": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "3": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "5": {
+          "item": "turned:box",
+          "count": 1
+        },
+        "6": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "7": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "8": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "9": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:metal_box",
+          "count": 1
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:papercartidge",
+      "input": {
+        "1": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:gunpowder",
+          "count": 1
+        },
+        "7": {
+          "item": "minecraft:paper",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:musketball",
+          "count": 4
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:labdoorrecipe",
+      "input": {
+        "1": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "2": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "3": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:redstone",
+          "count": 1
+        },
+        "5": {
+          "item": "minecraft:iron_door",
+          "count": 1
+        },
+        "6": {
+          "item": "minecraft:redstone",
+          "count": 1
+        },
+        "7": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "8": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        "9": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:lab_door",
+          "count": 1
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:slimeessencerecipe",
+      "input": {
+        "1": {
+          "item": "minecraft:slime_ball",
+          "count": 1
+        },
+        "2": {
+          "item": "minecraft:slime_ball",
+          "count": 1
+        },
+        "3": {
+          "item": "minecraft:slime_ball",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:slime_ball",
+          "count": 1
+        },
+        "5": {
+          "item": "minecraft:soul_sand",
+          "count": 1
+        },
+        "6": {
+          "item": "minecraft:slime_ball",
+          "count": 1
+        },
+        "7": {
+          "item": "minecraft:slime_ball",
+          "count": 1
+        },
+        "8": {
+          "item": "minecraft:slime_ball",
+          "count": 1
+        },
+        "9": {
+          "item": "minecraft:slime_ball",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:slimeessence",
+          "count": 1
+        }
+      }
+    },
+    {
+      "type": "crafting_shapeless",
+      "name": "turned:revolving_goo_cannon_recipe",
+      "input": {
+        "1": {
+          "item": "turned:latexcannon",
+          "count": 1
+        },
+        "2": {
+          "item": "turned:gunrepairkit",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:revolving_goo_cannon",
+          "count": 1,
+          "nbt": "{Damage:0}"
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:blue_lab_block_recipe",
+      "input": {
+        "1": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "2": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "3": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:blue_concrete",
+          "count": 1
+        },
+        "5": {
+          "item": "minecraft:blue_concrete",
+          "count": 1
+        },
+        "6": {
+          "item": "minecraft:blue_concrete",
+          "count": 1
+        },
+        "7": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "8": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "9": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:bluelabblock_1",
+          "count": 9
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:antilatexrecipe",
+      "input": {
+        "2": {
+          "item": "turned:slimeessence",
+          "count": 1
+        },
+        "4": {
+          "item": "turned:slimeessence",
+          "count": 1
+        },
+        "5": {
+          "item": "minecraft:slime_block",
+          "count": 1
+        },
+        "6": {
+          "item": "turned:slimeessence",
+          "count": 1
+        },
+        "8": {
+          "item": "turned:slimeessence",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:latexeaterslime",
+          "count": 1
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:black_lab_block_recipe_3",
+      "input": {
+        "1": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "2": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "3": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:gray_concrete",
+          "count": 1
+        },
+        "5": {
+          "item": "minecraft:gray_concrete",
+          "count": 1
+        },
+        "6": {
+          "item": "minecraft:gray_concrete",
+          "count": 1
+        },
+        "7": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "8": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "9": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:blacklabblock_3",
+          "count": 9
+        }
+      }
+    },
+    {
+      "type": "crafting_shaped",
+      "name": "turned:reinforced_concreterecipe",
+      "input": {
+        "1": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "2": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "3": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "4": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "5": {
+          "item": "minecraft:white_concrete",
+          "count": 1
+        },
+        "6": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "7": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "8": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        "9": {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        }
+      },
+      "output": {
+        "1": {
+          "item": "turned:reinforcedconcrete",
+          "count": 1
+        }
+      }
+    }
+  ],
+  "error": []
+}
